@@ -1,14 +1,12 @@
-# azure-subscription-vending
+# Azure Subscription Vending
 
-Azure portfolio repository for enterprise architecture, cloud transformation, and platform engineering.
+This repository defines the governance and operating model for controlled Azure subscription provisioning and onboarding.
 
-## Scope
-
-- Azure solution architecture
-- Cloud migration and landing-zone design
-- Platform engineering, GitOps, and Kubernetes
-- Security, governance, and DevSecOps
-
-## Purpose
-
-This repository is intended as a reusable reference and portfolio asset for enterprise Azure delivery.
+```mermaid
+flowchart LR
+    A[Request] --> B[Approval]
+    B --> C[Platform Team Review]
+    C --> D[Subscription Creation]
+    D --> E[Policies + RBAC Setup]
+    E --> F[Environment Ready]
+```
