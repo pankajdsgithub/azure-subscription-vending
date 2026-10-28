@@ -1,0 +1,15 @@
+{
+  "requestId": "SUB-DEV-001",
+  "businessUnit": "Platform",
+  "environment": "dev",
+  "workload": "DevTest",
+  "owner": "platform-team",
+  "subscriptionDisplayName": "contoso-platform-dev",
+  "billingScopeId": null,
+  "managementGroupId": null,
+  "policyDefinitionId": null,
+  "tags": {
+    "costCenter": "0000",
+    "application": "platform-landing-zone"
+  }
+}

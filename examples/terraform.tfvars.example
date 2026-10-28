@@ -1,0 +1,24 @@
+request_id = "SUB-DEV-001"
+business_unit = "Platform"
+environment = "dev"
+workload = "DevTest"
+owner = "platform-team"
+subscription_display_name = "contoso-platform-dev"
+location = "uksouth"
+management_group_id = null
+billing_scope_id = null
+policy_definition_id = null
+enable_subscription_creation = false
+
+tags = {
+  costCenter = "0000"
+  application = "platform-landing-zone"
+}
+
+rbac_assignments = {
+  platform-owner = {
+    principal_id         = "00000000-0000-0000-0000-000000000000"
+    role_definition_name = "Contributor"
+    scope                = null
+  }
+}
